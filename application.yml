@@ -5,10 +5,8 @@ spring:
 ---
 spring:
   profiles: dev
-    application:
-      name: microservicecloud-config-ys-dev
+    name: microservicecloud-config-ys-dev
 ---
 spring:
   profiles: test
-    application:
-      name: microservicecloud-config-ys-test
+    name: microservicecloud-config-ys-test
