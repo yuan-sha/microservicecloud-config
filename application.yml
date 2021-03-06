@@ -1,3 +1,7 @@
 server:
   profiles: dev
   port: 8001
+---
+server:
+  profiles: test
+  port: 8001
