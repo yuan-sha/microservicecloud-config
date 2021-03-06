@@ -1,9 +1,14 @@
 spring:
   profiles: dev
+  active:
+    - dev
+---
+spring:
+  profiles: dev
   application:
-    name: dev
+    name: microservicecloud-config-ys-dev
 ---
 spring:
   profiles: test
   application:
-    name: test
+    name: microservicecloud-config-ys-test
