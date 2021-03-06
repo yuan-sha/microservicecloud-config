@@ -1,7 +1,9 @@
 spring:
+  profiles: dev
   application:
     name: dev
 ---
 spring:
+  profiles: test
   application:
     name: test
