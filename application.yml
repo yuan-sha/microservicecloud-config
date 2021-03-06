@@ -1,7 +1,7 @@
-server:
-  profiles: dev
-  port: 8001
+spring:
+  application:
+    name: dev
 ---
-server:
-  profiles: test
-  port: 8001
+spring:
+  application:
+    name: test
