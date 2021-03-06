@@ -1,14 +1,2 @@
-spring:
-  profiles:
-    active:
-      - dev
----
-spring:
-  profiles: dev
-    application:
-      name: microservicecloud-config-ys-dev
----
-spring:
-  profiles: test
-    application:
-      name: microservicecloud-config-ys-test
+server:
+  port: 8001
