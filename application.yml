@@ -1,4 +1,9 @@
 spring:
+  config:
+    activate:
+      on-profile: dev
+---
+spring:
   profiles: dev
   application:
     name: microservicecloud-config-ys-dev
